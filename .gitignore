@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+ENV/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Machine Learning
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.pb
+saved_models/
+checkpoints/
+models/
+*.model
+*.weights
+
+# Data
+data/
+datasets/
+*.csv
+*.tsv
+*.dat
+*.json
+!configs/*.json
+!configs/*.yaml
+*.parquet
+*.feather
+
+# Logs and Experiment Tracking
+logs/
+*.log
+mlruns/
+.mlflow/
+wandb/
+runs/
+tensorboard/
+
+# Credentials and Secrets
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+credentials.json
+service-account.json
+.aws/
+.gcloud/
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/

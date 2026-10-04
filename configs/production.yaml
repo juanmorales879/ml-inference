@@ -1,0 +1,17 @@
+# Production Configuration Overrides
+
+server:
+  reload: false
+  workers: 8
+
+model:
+  device: "cuda"
+  batch_size: 64
+
+logging:
+  level: "WARNING"
+  output: "file"
+  file_path: "/var/log/ml-api/app.log"
+
+monitoring:
+  enable_metrics: true
